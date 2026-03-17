@@ -2,12 +2,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a = 25;    //decimal notation
-                   
-    int b = 031;      //octal notation
+   int a = 25;
+   int b = 031;
+   int c = 0x19;
 
-    int o = 0x19;       //hexadecimal notation
-    
-    cout<<a<<endl<<b<<endl<<o;
+   cout<<a<<endl<<b<<endl<<c;
+   
     return 0;
 }
