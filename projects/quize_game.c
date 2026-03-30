@@ -1,6 +1,7 @@
 //question quize game
 #include<stdio.h>
 char answer;
+int score = 0;
 int main(){
     printf("welcome to quize game\n");
 
@@ -15,9 +16,11 @@ int main(){
 
     if(answer == 'b' || answer == 'B'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
+    
 
     //question 2
     printf("\nQ2. who is the current prime minister of india?\n");
@@ -30,6 +33,7 @@ int main(){
 
     if(answer == 'a' || answer == 'A'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -44,6 +48,7 @@ int main(){
 
     if(answer == 'e' || answer == 'E'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -58,6 +63,7 @@ int main(){
 
     if(answer == 'a' || answer == 'A'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -73,6 +79,7 @@ int main(){
 
     if(answer == 'b' || answer == 'B'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -101,6 +108,7 @@ int main(){
 
     if(answer == 'b' || answer == 'B'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -116,6 +124,7 @@ int main(){
 
     if(answer == 'c' || answer == 'C'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -144,6 +153,7 @@ int main(){
 
     if(answer == 'a' || answer == 'A'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -158,6 +168,7 @@ int main(){
 
     if(answer == 'd' || answer == 'D'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -172,6 +183,7 @@ int main(){
 
     if(answer == 'b' || answer == 'B'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -185,6 +197,7 @@ int main(){
     scanf(" %c", &answer);
     if(answer == 'c' || answer == 'C'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -213,6 +226,7 @@ int main(){
 
     if(answer == 'd' || answer == 'D'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -228,6 +242,7 @@ int main(){
 
     if(answer == 'b' || answer == 'B'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
@@ -243,10 +258,196 @@ int main(){
 
     if(answer == 'e' || answer == 'E'){
         printf("congratulations! your answer is correct\n");
+        score++;
     } else {
         printf("sorry, your answer is incorrect\n");
     }
+     //question 18
+    printf("\nQ18.which things present inside protons ?\n");
+    printf("a) quarks\n");
+    printf("b) gluons\n");
+    printf("c) sendark\n");
+    printf("d) metapit\n");
+  
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+
+    if(answer == 'a' || answer == 'A'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+//question 19
+    printf("\nQ19. warking of large hydeon collider ?\n");
+    printf("a) to acceseleate the particles\n");
+    printf("b) to break the particles\n");
+    printf("c) to create new particles\n");
+    printf("d) all of the above\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'd' || answer == 'D'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 20
+    printf("\nQ20. what is the capital of russia ?\n");
+    printf("a) moscow\n");
+    printf("b) st petersburg\n");
+
+    printf("c) kazan\n");
+    printf("d) sochi\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'a' || answer == 'A'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 21
+    printf("\nQ21. which one is your fav sport ?\n");
+    printf("a) cricket\n");
+    printf("b) football\n");
+    printf("c) basketball\n");
+    printf("d) tennis\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'a' || answer == 'A'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+
+    //question 22
+    printf("\nQ22. what is the capital of france ?\n");
+    printf("a) london\n");
+    printf("b) paris\n");
+    printf("c) berlin\n");
+    printf("d)rome\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'b' || answer == 'B'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 23
+    printf("\nQ23. which one is your fav programming language ?\n");
+    printf("a) python\n");
+    printf("b) java\n");
+    printf("c) c++\n");
+    printf("d) javascript\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'a' || answer == 'A'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 24
+    printf("\nQ24. which one is your fav movie genre ?\n");
+    printf("a) action\n");
+    printf("b) comedy\n");
+    printf("c) horror\n");
+    printf("d) science fiction\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'd' || answer == 'D'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 25
+    printf("\nQ25. which one is your fav music genre ?\n");
+    printf("a) religious\n");
+    printf("b) old\n");
+    printf("c) rap\n");
+    printf("d) marathi\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'd' || answer == 'D'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 26
+    printf("\nQ26. what is your opinion about better call saul web series ?\n");
+    printf("a) great\n");
+    printf("b) good\n");
+    printf("c) average\n");
+    printf("d) bad\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'a' || answer == 'A'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 27
+    printf("\nQ27. best dilogues in breaking bad web sries ?\n");
+    printf("a) i am the danger\n");
+    printf("b) say my name\n");
+    printf("c) i am the one who knocks\n");
+    printf("d) all of the above\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'b' || answer == 'B'){
+        printf("congratulations! your answer is correct\n");        score++;    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 28
+    printf("\nQ28. what is the name of actor who played role of thomas shelby in peaky blinders web series ?\n");
+    printf("a) cillian murphy\n");
+    printf("b) adrian brody\n");
+    printf("c) johnny depp\n");
+    printf("d) brad pitt\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'a' || answer == 'A'){
+        printf("congratulations! your answer is correct\n");
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+
+    //question 29
+    printf("\nQ29. which one is your fav web series ?\n");
+
+    printf("a) breaking bad\n");
+    printf("b) peaky blinders\n");
+
+    printf("c) the wire\n");
+    printf("d) the 100\n");
+    printf("enter your answer: ");
+    scanf(" %c", &answer);
+
+    if(answer == 'a' || answer == 'A'){
+        printf("congratulations! your answer is correct\n");
+        score++;
+    } else {
+        printf("sorry, your answer is incorrect\n");
+    }
+    //question 30
+    
     
 
+    // Display Results
+    float percentage = (score / 29.0) * 100;
+    printf("\n=============================\n");
+    printf("         QUIZ RESULTS        \n");
+    printf("=============================\n");
+    printf("Total Questions: 29\n");
+    printf("Correct Answers: %d\n", score);
+    printf("Your Score: %.2f%%\n", percentage);
+    printf("=============================\n");
+    
     return 0;
 }
